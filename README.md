@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Welcome to the Fake News Detector and Fact Checker! This project aims to provide a robust tool for verifying the authenticity of news articles and offers a summary to help you understand the context and reasons behind any false claims. 
+Welcome to the Fake News Detector and Fact Checker! This project aims to provide a robust tool for verifying the authenticity of news articles and offers a summary to help you understand the context and reasons behind any false claims.
 
 ## Features
 
@@ -20,20 +20,32 @@ Welcome to the Fake News Detector and Fact Checker! This project aims to provide
 
 To get started with the Fake News Detector and Fact Checker, follow these steps:
 
+### Using Google Colab
+
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/fake-news-detector.git
+    git clone https://github.com/punit169/fake-news-detector-and-fact-checker.git
     ```
 
-2. **Install dependencies**:
+2. **Open the Jupyter notebook**:
+    - Upload the notebook file (`.ipynb`) to your Google Drive.
+    - Open the notebook using Google Colab.
+
+### Using Streamlit
+
+1. **Clone the repository**:
     ```sh
-    cd fake-news-detector
-    pip install -r requirements.txt
+    git clone https://github.com/punit169/fake-news-detector-and-fact-checker.git
     ```
 
-3. **Run the application**:
+2. **Convert the Jupyter notebook to a Python script**:
     ```sh
-    python app.py
+    jupyter nbconvert --to script fake-news-detector-and-fact-checker.ipynb
+    ```
+
+3. **Run the Streamlit application**:
+    ```sh
+    streamlit run fake-news-detector-and-fact-checker.py
     ```
 
 ## Usage
